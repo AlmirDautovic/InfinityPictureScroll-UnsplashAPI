@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 html {
   box-sizing: border-box;
@@ -5,5 +6,39 @@ html {
 
 body {
   margin: 0;
-  min-height: 100vh;
+  font-family: Teko, sans-serif;
+  background: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+}
+
+.loading-cube {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.loading-cube img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  margin: 10px 30%;
+}
+
+.wrapper img {
+  width: 100%;
+  margin-top: 10px;
 }
