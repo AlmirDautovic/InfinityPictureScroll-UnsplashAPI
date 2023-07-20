@@ -12,7 +12,7 @@ body {
 
 h1 {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 3.5px;
@@ -41,4 +41,14 @@ h1 {
 .wrapper img {
   width: 100%;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 17px;
+  }
+
+  .wrapper {
+    margin: 10px;
+  }
 }
